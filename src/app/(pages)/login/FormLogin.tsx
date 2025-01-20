@@ -1,10 +1,9 @@
 "use client"
 
-import { authFirebase, dbFirebase } from "@/app/firebaseConfig";
+import { authFirebase } from "@/app/firebaseConfig";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { ref, set } from "firebase/database";
 import { useRouter } from "next/navigation";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const FormLogin = () => {
     const router = useRouter();
 

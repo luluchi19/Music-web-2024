@@ -4,7 +4,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { ref, runTransaction } from "firebase/database";
 import { useEffect, useState } from "react";
 import { FaHeart } from "react-icons/fa6"
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const ButtonHeart = (props: any) => {
     const { item } = props;
     const [isActive, setIsActive] = useState(false);

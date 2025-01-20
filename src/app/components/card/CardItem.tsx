@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const CardItem = (props: {item: any}) => {
     const { item } = props;
     return(

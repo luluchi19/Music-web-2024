@@ -3,7 +3,6 @@
 import { authFirebase } from "@/app/firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 import Link from "next/link"
-import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import {FaHeart, FaHouse, FaMusic, FaPodcast, FaRightFromBracket, FaUser, FaUserPlus} from "react-icons/fa6"
 import { MenuItem } from "./MenuItem";
@@ -63,7 +62,7 @@ export const Sider = () => {
         },
     ];
     
-    const pathName = usePathname();
+    //const pathName = usePathname();
     return(
         <>
             {/* vh: view height */}

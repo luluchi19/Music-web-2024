@@ -1,6 +1,6 @@
 "use client"
 import { FaVolumeHigh } from "react-icons/fa6";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const PlayVolume = () => {
     const handleChange = (event: any) => {
         const elementPlayAudio: any = document.querySelector(".play-audio");

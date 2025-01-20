@@ -3,11 +3,9 @@ import "./globals.css";
 import { Title } from "./components/title/Title";
 import { SongItem } from "./components/song/SongItem";
 import { CardItem } from "./components/card/CardItem";
-import { title } from "process";
 import { onValue, ref } from "firebase/database";
 import { dbFirebase } from "./firebaseConfig";
-import { link } from "fs";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const metadata: Metadata = {
   title: "Trang chủ",
   description: "Website nghe nhạc trực tuyến",

@@ -3,7 +3,7 @@ import { Title } from "@/app/components/title/Title";
 import { dbFirebase } from "@/app/firebaseConfig";
 import { ref, onValue } from "firebase/database";
 import type { Metadata } from "next";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const metadata: Metadata = {
   title: "Danh mục bài hát",
   description: "Website nghe nhạc trực tuyến",

@@ -1,6 +1,6 @@
 "use client"
 import { FaPlay } from "react-icons/fa6";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const ButtonPlay = (props: { item: any, className: any }) => {
     const { item, className } = props;
 

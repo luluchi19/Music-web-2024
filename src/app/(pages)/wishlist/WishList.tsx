@@ -4,7 +4,7 @@ import { authFirebase, dbFirebase } from "@/app/firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 import { get, ref } from "firebase/database";
 import { useEffect, useState } from "react";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const WishList = () => {
     const [dataFinal, setDataFinal] = useState<any>(null);
 

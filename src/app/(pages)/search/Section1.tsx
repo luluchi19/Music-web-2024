@@ -1,10 +1,10 @@
 "use client"
 import { SongItem2 } from "@/app/components/song/SongItem2";
 import { dbFirebase } from "@/app/firebaseConfig";
-import { ref, onValue, get } from "firebase/database";
+import { ref, get } from "firebase/database";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const Section1 = () => {
     const searchParams = useSearchParams();
     const [dataFinal, setDataFinal] = useState<any>(null);

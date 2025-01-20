@@ -1,4 +1,4 @@
-import { SongItem2 } from "@/app/components/song/SongItem2";
+
 import { Title } from "@/app/components/title/Title";
 import type { Metadata } from "next";
 import { WishList } from "./WishList";

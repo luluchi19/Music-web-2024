@@ -1,8 +1,7 @@
 import Link from "next/link";
-import {FaPlay, FaRegHeart} from "react-icons/fa6";
 import { ButtonPlay } from "../button/ButtonPlay";
 import { ButtonRegHeart } from "../button/ButtonRegHeart";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const SongItem2 = (props: {item: any}) => {
     const {item} = props;
 
